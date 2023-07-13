@@ -1,0 +1,253 @@
+{
+    "asset": {
+        "copyright": "2019 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0897bb3786688dd8ac0e16e7ca439aa83b5dca11",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 32544,
+            "type": "VEC3",
+            "max": [
+                0.009992930106818676,
+                0.12166160345077515,
+                0.02442063018679619
+            ],
+            "min": [
+                -0.010710630565881729,
+                0.12004107981920243,
+                -0.018716029822826387
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 32544,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 32544,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 48816,
+            "type": "SCALAR",
+            "max": [
+                32543.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 79808,
+            "type": "VEC3",
+            "max": [
+                0.033418890088796619,
+                0.12396148592233658,
+                0.03341877833008766
+            ],
+            "min": [
+                -0.033418867737054828,
+                0.00003724999987753108,
+                -0.03341887891292572
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 79808,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 79808,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 119712,
+            "type": "SCALAR",
+            "max": [
+                79807.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 390528,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 390528,
+            "byteLength": 390528,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 781056,
+            "byteLength": 260352,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1041408,
+            "byteLength": 195264,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1236672,
+            "byteLength": 957696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2194368,
+            "byteLength": 957696,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3152064,
+            "byteLength": 638464,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3790528,
+            "byteLength": 478848,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 4269376,
+            "uri": "4444111111_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6172069907188416,
+                    0.6172069907188416,
+                    0.6172069907188416,
+                    1.0
+                ],
+                "roughnessFactor": 0.02199999988079071
+            },
+            "name": "Metal"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Pull Ring",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "Can",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.3289625346660614,
+                0.23518753051757813,
+                0.3289625346660614
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3
+            ],
+            "translation": [
+                0.008374261669814587,
+                -0.00003724999987753108,
+                0.0
+            ],
+            "name": "Beverage Can"
+        },
+        {
+            "mesh": 0,
+            "name": "Pull Ring"
+        },
+        {
+            "mesh": 1,
+            "name": "Can"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
